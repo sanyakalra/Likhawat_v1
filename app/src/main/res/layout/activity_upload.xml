@@ -5,7 +5,7 @@
 
 
     <com.example.sanya.likhawat_v1.FloatingActionButton
-        android:id="@+id/btn_buy"
+        android:id="@+id/btn_upload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         fab:fab_icon="@drawable/upload_icon"
