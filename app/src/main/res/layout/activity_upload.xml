@@ -3,9 +3,8 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     xmlns:fab="http://schemas.android.com/apk/res-auto">
 
-
     <com.example.sanya.likhawat_v1.FloatingActionButton
-        android:id="@+id/btn_upload"
+        android:id="@+id/btnUpload"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         fab:fab_icon="@drawable/upload_icon"
@@ -15,5 +14,28 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp" />
+
+    <ImageView
+        android:id="@+id/viewImage"
+        android:padding="10dp"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/btnUpload"
+        android:layout_centerHorizontal="true"
+        android:layout_width="325sp"
+        android:layout_height="325sp" />
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:text="Continue"
+        android:background="@drawable/button_back2"
+        android:id="@+id/btnContinue"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:visibility="invisible"/>
 
 </RelativeLayout>
