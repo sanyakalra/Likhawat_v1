@@ -10,7 +10,7 @@
         fab:fab_icon="@drawable/upload_icon"
         fab:fab_colorNormal="#00008B"
         fab:fab_colorPressed="#00008B"
-        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp" />
@@ -22,11 +22,12 @@
         android:layout_above="@+id/btnUpload"
         android:layout_centerHorizontal="true"
         android:layout_width="325sp"
-        android:layout_height="325sp" />
+        android:layout_height="325sp"
+        android:contentDescription="@string/content_description"/>
     <TextView
         android:layout_width="300sp"
         android:layout_height="50sp"
-        android:text="Continue"
+        android:text="@string/app_continue"
         android:background="@drawable/button_back2"
         android:id="@+id/btnContinue"
         android:textColor="#fff"
@@ -36,6 +37,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="37dp"
-        android:visibility="invisible"/>
+        android:visibility="invisible"
+
+        />
 
 </RelativeLayout>

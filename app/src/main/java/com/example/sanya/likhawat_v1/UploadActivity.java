@@ -11,10 +11,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by sanya on 13/2/17.
- */
-
 public class UploadActivity extends AppCompatActivity {
 
     private ImageView viewImage;
@@ -47,18 +43,23 @@ public class UploadActivity extends AppCompatActivity {
         if (resultCode == RESULT_OK) {
             if (requestCode == 1) {
 
+                String imagePath = "";
                 Uri selectedImage = data.getData();
                 String[] filePathColumn = { MediaStore.Images.Media.DATA };
                 Cursor cursor = getContentResolver().query(selectedImage, filePathColumn, null, null, null);
-                cursor.moveToFirst();
-                int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
-                String imagePath = cursor.getString(columnIndex);
+                if (cursor.moveToFirst()) {
+                    int columnIndex = cursor.getColumnIndex(filePathColumn[0]);
+                    imagePath = cursor.getString(columnIndex);
+                }
                 cursor.close();
-                viewImage=(ImageView)findViewById(R.id.viewImage);
-                viewImage.setImageURI(selectedImage);
-                btnUpload.setVisibility(View.INVISIBLE);
-                btnContinue.setVisibility(View.VISIBLE);
-                Log.w("ImagePath*********", imagePath+"");
+
+                if (null != selectedImage) {
+                    viewImage=(ImageView)findViewById(R.id.viewImage);
+                    viewImage.setImageURI(selectedImage);
+                    Log.w("pathimgfromgal*********", imagePath+"");
+                    btnUpload.setVisibility(View.INVISIBLE);
+                    btnContinue.setVisibility(View.VISIBLE);
+                }
 
             }
         }
