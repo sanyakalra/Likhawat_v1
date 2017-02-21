@@ -2,18 +2,40 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+    <com.example.sanya.likhawat_v1.CanvasView
+        android:id="@+id/drawingCanvas"
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:layout_height="550sp"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnReset" />
+
     <TextView
-        android:layout_width="300sp"
+        android:layout_width="150sp"
         android:layout_height="50sp"
-        android:text="@string/app_continue"
+        android:text="Continue"
         android:background="@drawable/button_back2"
         android:id="@+id/btnContinue"
         android:textColor="#fff"
         android:textAlignment="center"
         android:gravity="center_vertical|center_horizontal"
         android:textSize="18sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="37dp" />
+        android:layout_below="@+id/drawingCanvas"
+        android:layout_toEndOf="@+id/btnReset"
+        android:layout_marginStart="20dp" />
 
+    <TextView
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:text="Reset"
+        android:background="@drawable/button_back2"
+        android:id="@+id/btnReset"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginBottom="26dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
