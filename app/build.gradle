@@ -17,6 +17,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+}
+repositories {
+    flatDir {
+        dirs 'C:\\Users\\swati\\Downloads\\Likhawat_v1-20170402T205602Z-001\\Likhawat_v1\\app\\libs'
+    }
 }
 
 dependencies {
@@ -25,5 +31,9 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
+    compile(name: 'MyScript_ATK-Core-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-Text-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-IMCommon-android-component', ext: 'aar')
+    compile(name: 'MyScript_ATK-SingleCharWidget-android-widget', ext: 'aar')
     testCompile 'junit:junit:4.12'
 }
