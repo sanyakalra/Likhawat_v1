@@ -13,7 +13,7 @@ Install Android Studio, import the project and run the code to see what we have 
 ## CURRENT SCENARIO:
 As desired, the screen gives you two options: to upload a photo or draw. 
 the functionality of both the pages are complete. Each of the pages are in proper link to one another.
-Next we are working on myScript and OpenCV, for the recognition of the written text. 
+Next we are working on myScript and Optical Character Recognition(Android Vision) libraries, for the recognition of the written text. 
 
 ### Developers
 - Aastha Anand aastha24@bu.edu
