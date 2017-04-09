@@ -21,7 +21,7 @@ android {
 }
 repositories {
     flatDir {
-        dirs 'C:\\Users\\swati\\Downloads\\Likhawat_v1-20170402T205602Z-001\\Likhawat_v1\\app\\libs'
+        dirs '/home/sanya/Downloads/Likhawat_v1/app/libs'
     }
 }
 

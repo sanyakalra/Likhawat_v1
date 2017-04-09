@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="MyScript_ATK-Text-android-component-">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/d6be1ff2e8894563a9f735cd45c04a63ce7ea437/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/d6be1ff2e8894563a9f735cd45c04a63ce7ea437/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/d9276b2a025c16169d22d98e3c65f2ed9f350f82/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/d9276b2a025c16169d22d98e3c65f2ed9f350f82/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
