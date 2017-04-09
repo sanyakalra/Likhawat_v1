@@ -15,7 +15,11 @@ As desired, the screen gives you two options: to upload a photo or draw.
 the functionality of both the pages are complete. Each of the pages are in proper link to one another.
 Next we are working on myScript and Optical Character Recognition(Android Vision) libraries, for the recognition of the written text. 
 
+### Note
+If you would like to run the whole code in your laptop/PC, you must change the path of the 'libs' directory with your path.
+
 ### Developers
 - Aastha Anand aastha24@bu.edu
 - Sanya Kalra skalra@bu.edu
+
 
