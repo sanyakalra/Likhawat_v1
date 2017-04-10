@@ -13,7 +13,9 @@ Install Android Studio, import the project and run the code to see what we have 
 ## CURRENT SCENARIO:
 As desired, the screen gives you two options: to upload a photo or draw. 
 the functionality of both the pages are complete. Each of the pages are in proper link to one another.
-Next we are working on myScript and Optical Character Recognition(Android Vision) libraries, for the recognition of the written text. 
+We have worked on myScript and Optical Character Recognition(Android Vision) libraries, for the recognition of the written text. 
+The myScript branch is added to the application. The conversion of a drawn text to digital form is complete. 
+The OCR branch is still under development in two forms: with/without camera feature and with/without crop option. For details check the Sprint 6 demo presentation.
 
 ### Note
 If you would like to run the whole code in your laptop/PC, you must change the path of the 'libs' directory with your path.
