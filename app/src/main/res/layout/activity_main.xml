@@ -10,34 +10,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.sanya.likhawat_v1.MainActivity">
+    tools:context="com.example.sanya.likhawat_v1.AdultActivity">
 
     <TextView
         android:layout_width="300sp"
         android:layout_height="50sp"
-        android:text="Write Your Text"
+        android:text="Adults"
         android:background="@drawable/button_back2"
-        android:id="@+id/textDraw"
+        android:id="@+id/textAdult"
         android:textColor="#fff"
         android:textAlignment="center"
         android:gravity="center_vertical|center_horizontal"
         android:textSize="18sp"
         android:layout_marginBottom="52dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textUpload" />
+        android:layout_alignStart="@+id/textBaby" />
 
     <TextView
         android:layout_width="300sp"
         android:layout_height="50sp"
-        android:text="Upload a Picture"
+        android:text="Kids"
         android:background="@drawable/button_back2"
-        android:id="@+id/textUpload"
+        android:id="@+id/textBaby"
         android:textColor="#fff"
         android:textAlignment="center"
         android:gravity="center_vertical|center_horizontal"
         android:textSize="18sp"
         android:layout_marginBottom="13dp"
-        android:layout_above="@+id/textDraw"
+        android:layout_above="@+id/textAdult"
         android:layout_centerHorizontal="true" />
 
     <ImageView
@@ -45,7 +45,7 @@
         android:layout_height="300sp"
         app:srcCompat="@drawable/liksymbol"
         android:id="@+id/imageView"
-        android:layout_above="@+id/textUpload"
+        android:layout_above="@+id/textBaby"
         android:layout_centerHorizontal="true" />
 
 

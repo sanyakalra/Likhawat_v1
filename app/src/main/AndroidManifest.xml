@@ -3,6 +3,8 @@
     package="com.example.sanya.likhawat_v1">
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,13 +18,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UploadActivity">
+        <activity android:name=".AdultActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.ALTERNATIVE" />
             </intent-filter>
         </activity>
+        <activity android:name=".BabyActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity
+            android:name="com.example.sanya.likhawat_v1.CameraActivity"
+            android:label="Camera Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.sanya.likhawat_v1.OcrCaptureActivity"
+            android:label="Read Text" />
         <activity android:name=".DrawActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

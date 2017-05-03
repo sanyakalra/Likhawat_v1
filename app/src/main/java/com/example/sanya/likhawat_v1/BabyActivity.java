@@ -1,18 +1,27 @@
 package com.example.sanya.likhawat_v1;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.PopupWindow;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.myscript.atk.scw.SingleCharWidget;
 import com.myscript.atk.scw.SingleCharWidgetApi;
 
-public class DrawActivity extends AppCompatActivity implements
+/**
+ * Created by swati on 4/23/2017.
+ */
+
+public class BabyActivity extends AppCompatActivity implements
         SingleCharWidgetApi.OnConfiguredListener,
         SingleCharWidgetApi.OnTextChangedListener
 {
@@ -20,18 +29,42 @@ public class DrawActivity extends AppCompatActivity implements
     private static final String TAG = "SingleCharDemo";
 
     private SingleCharWidgetApi widget;
-    private TextView btnReset, btnContinue, textView;
-
+    private FloatingActionButton btnErase, btnRecognise, btnNext;
+    private TextView textRecognise, textView;
+    private Intent intent;
+    private int[] images = {
+            R.drawable.apple, R.drawable.fish, R.drawable.candy, R.drawable.baloons, R.drawable.minion, R.drawable.tweety, R.drawable.santa, R.drawable.tom};
+    private String[] value = {
+            "Apple","fish","candy","baloon", "minion","tweety", "santa", "tom"
+    };
+    private int a=0;
+    private PopupWindow popup;
+    private LayoutInflater layoutInflater;
+    private RelativeLayout relativeLayout;
+    private ImageView imageView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_draw);
-        btnReset = (TextView) findViewById(R.id.btnReset);
-        btnContinue = (TextView) findViewById(R.id.btnContinue);
-        textView = (TextView) findViewById(R.id.textView) ;
+        setContentView(R.layout.activity_baby);
+        btnErase = (FloatingActionButton) findViewById(R.id.btnErase);
+        btnRecognise = (FloatingActionButton) findViewById(R.id.btnRecognise);
+        btnNext = (FloatingActionButton) findViewById(R.id.btnNext) ;
+        textRecognise = (TextView) findViewById(R.id.textRecognise);
+        textView = (TextView) findViewById(R.id.textView);
+        relativeLayout = (RelativeLayout) findViewById(R.id.relative);
+        //imageView4 = (ImageView) findViewById(R.id.imageView4);
+
+
+//        btnNext.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                intent = new Intent(BabyActivity.this, Image_change.class);
+//                startActivity(intent);
+//            }
+//        });
 
         widget = (SingleCharWidget) findViewById(R.id.singleChar_widget);
         if (!widget.registerCertificate(MyCertificate.getBytes()))
@@ -65,22 +98,57 @@ public class DrawActivity extends AppCompatActivity implements
         // "en_US" references the en_US bundle name in conf/en_US.conf file in your assets.
         // "si_text" references the configuration name in en_US.conf
         widget.configure("en_US", "si_text");
-        btnReset.setOnClickListener(new View.OnClickListener() {
+        btnErase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                textView.setText("Type your text");
+               // textView.setText("Type your text");
                 widget.clear();
+                textRecognise.setText("");
             }
         });
 
-        btnContinue.setOnClickListener(new View.OnClickListener() {
+            final ImageView imageView = (ImageView) findViewById(R.id.imageView);
+            btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                            if (a >= (images.length)-1) {
+                                a = 0;
+                            }
+                            else{
+                            ++a;}
+                            imageView.setImageResource(images[a]);
+                            Log.d("1","A: "+a);
+                            textRecognise.setText("");
+                            //imageView4.setVisibility(View.INVISIBLE);
+
+
+            }
+        });
+
+
+
+        btnRecognise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (widget.getText().isEmpty()) {
                     textView.setText("Type your text");
                 }
                 else {
-                    textView.setText(widget.getText());
+                    textRecognise.setText(widget.getText());
+                    String b= (String) textRecognise.getText();
+                    String c = b.toLowerCase();
+                    String d = value[a].toLowerCase();
+                   // Toast.makeText(BabyActivity.this,"A value :"+value[a]+" b = "+b+" C value: "+c,Toast.LENGTH_SHORT).show();
+                    if(c.equals(d))
+                    {
+                        //imageView4.setVisibility(View.VISIBLE);
+                        //imageView4.setImageResource(R.drawable.liksymbol);
+                        Toast.makeText(BabyActivity.this,"Congrats!!! You won a candy!",Toast.LENGTH_SHORT).show();
+                    }
+                    else
+                    {
+                        Toast.makeText(BabyActivity.this,"OOPS!! You lost, Try Again!",Toast.LENGTH_SHORT).show();
+                    }
                     widget.clear();
                 }
             }
@@ -119,3 +187,4 @@ public class DrawActivity extends AppCompatActivity implements
         }
     }
 }
+
