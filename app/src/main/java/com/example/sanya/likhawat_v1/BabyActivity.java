@@ -32,7 +32,8 @@ public class BabyActivity extends AppCompatActivity implements
     private FloatingActionButton btnErase, btnRecognise, btnNext;
     private TextView textRecognise, textView;
     private Intent intent;
-    private int[] images = {
+    private int[] images =
+            {
             R.drawable.apple, R.drawable.fish, R.drawable.candy, R.drawable.baloons, R.drawable.minion, R.drawable.tweety, R.drawable.santa, R.drawable.tom};
     private String[] value = {
             "Apple","fish","candy","baloon", "minion","tweety", "santa", "tom"

@@ -1,0 +1,156 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:2:1-60:12
+	package
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:4:5-96
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:4:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:5:22-64
+uses-feature#android.hardware.camera
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:7:22-62
+application
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:8:5-58:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/sanya/.android/build-cache/c474f300f5eff1caa18926dac5d5773f394b13e8/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/sanya/.android/build-cache/bc60ce7636965ab941ea4dc83cb8df9009ac0f61/output/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/sanya/.android/build-cache/5aaf3d1491c825ab0a99be07eaefb9cca2fe0cba/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/sanya/.android/build-cache/3359df24007f8baa103e9173f1f96fa4078e5acf/output/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:design:25.0.1] /home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.1] /home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/sanya/.android/build-cache/41171b17d658e106f9c0abf58bee78deec31ddd5/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/sanya/.android/build-cache/ef7dbfec455a4d89e121008db90c5e86194666eb/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.0.1] /home/sanya/.android/build-cache/03286541c7b9078cacbcc59bacd8f0f1ff1e54c4/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.1] /home/sanya/.android/build-cache/a6f8a1fb47b7528a2e1c78c663737ffa3ec3bfc3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] /home/sanya/.android/build-cache/0aab48df1ba07371f4e52bb97696d3c75ab43fb2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] /home/sanya/.android/build-cache/a14ee9bab7f47c35eab50a685d81358cd22d74d4/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /home/sanya/.android/build-cache/b856d38a8f3db160c18a3406144fc8193bbc1753/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] /home/sanya/.android/build-cache/b3520c55e0441e02a896df95898eabf8e0398d22/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /home/sanya/.android/build-cache/dc13d18b6ca4f3858426a95cae69e4fbf71091a9/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.sanya.likhawat_v1.MainActivity
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.sanya.likhawat_v1.AdultActivity
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:21:9-27:20
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:21:19-48
+intent-filter#android.intent.action.MAIN+android.intent.category.ALTERNATIVE
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:22:13-26:29
+category#android.intent.category.ALTERNATIVE
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:25:17-80
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:25:27-77
+activity#com.example.sanya.likhawat_v1.BabyActivity
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:28:19-47
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:35:9-37:35
+	android:value
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:37:13-32
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:36:13-70
+activity#com.example.sanya.likhawat_v1.CameraActivity
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:39:9-47:20
+	android:label
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:40:13-72
+activity#com.example.sanya.likhawat_v1.OcrCaptureActivity
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:49:9-50:41
+	android:label
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:50:13-38
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:49:19-82
+activity#com.example.sanya.likhawat_v1.DrawActivity
+ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:51:9-57:20
+	android:name
+		ADDED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml:51:19-47
+uses-sdk
+INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:MyScript_ATK-Core-android-component:] /home/sanya/.android/build-cache/6ec99ae05c08c86c6a7833be343a251de99c0ae4/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:MyScript_ATK-Text-android-component:] /home/sanya/.android/build-cache/d9276b2a025c16169d22d98e3c65f2ed9f350f82/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:MyScript_ATK-IMCommon-android-component:] /home/sanya/.android/build-cache/9f3a6e357896cffccc4497b41285a328d08091b2/output/AndroidManifest.xml:7:5-9:41
+MERGED from [:MyScript_ATK-SingleCharWidget-android-widget:] /home/sanya/.android/build-cache/f3062a587ac999d50e7339e7f89e8fe7e7d92108/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] /home/sanya/.android/build-cache/c474f300f5eff1caa18926dac5d5773f394b13e8/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] /home/sanya/.android/build-cache/bc60ce7636965ab941ea4dc83cb8df9009ac0f61/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /home/sanya/.android/build-cache/5aaf3d1491c825ab0a99be07eaefb9cca2fe0cba/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] /home/sanya/.android/build-cache/3359df24007f8baa103e9173f1f96fa4078e5acf/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:design:25.0.1] /home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.1] /home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] /home/sanya/.android/build-cache/41171b17d658e106f9c0abf58bee78deec31ddd5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] /home/sanya/.android/build-cache/ef7dbfec455a4d89e121008db90c5e86194666eb/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /home/sanya/.android/build-cache/ae06d88473c10984f3c04e9cf63cf360e4037ec6/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.1] /home/sanya/.android/build-cache/03286541c7b9078cacbcc59bacd8f0f1ff1e54c4/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.1] /home/sanya/.android/build-cache/a6f8a1fb47b7528a2e1c78c663737ffa3ec3bfc3/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] /home/sanya/.android/build-cache/0aab48df1ba07371f4e52bb97696d3c75ab43fb2/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] /home/sanya/.android/build-cache/a14ee9bab7f47c35eab50a685d81358cd22d74d4/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] /home/sanya/.android/build-cache/b856d38a8f3db160c18a3406144fc8193bbc1753/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] /home/sanya/.android/build-cache/b3520c55e0441e02a896df95898eabf8e0398d22/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] /home/sanya/.android/build-cache/dc13d18b6ca4f3858426a95cae69e4fbf71091a9/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] /home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/sanya/Downloads/Likhawat_v1/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:MyScript_ATK-Core-android-component:] /home/sanya/.android/build-cache/6ec99ae05c08c86c6a7833be343a251de99c0ae4/output/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [:MyScript_ATK-Core-android-component:] /home/sanya/.android/build-cache/6ec99ae05c08c86c6a7833be343a251de99c0ae4/output/AndroidManifest.xml:11:22-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/sanya/.android/build-cache/bc60ce7636965ab941ea4dc83cb8df9009ac0f61/output/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/sanya/.android/build-cache/bc60ce7636965ab941ea4dc83cb8df9009ac0f61/output/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/sanya/.android/build-cache/bc60ce7636965ab941ea4dc83cb8df9009ac0f61/output/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] /home/sanya/.android/build-cache/bc60ce7636965ab941ea4dc83cb8df9009ac0f61/output/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.4.0] /home/sanya/.android/build-cache/3359df24007f8baa103e9173f1f96fa4078e5acf/output/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /home/sanya/.android/build-cache/3359df24007f8baa103e9173f1f96fa4078e5acf/output/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.4.0] /home/sanya/.android/build-cache/3359df24007f8baa103e9173f1f96fa4078e5acf/output/AndroidManifest.xml:22:13-58

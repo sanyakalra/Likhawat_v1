@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/fab_close.xml",
+        "source": "/home/sanya/Downloads/Likhawat_v1/app/src/main/res/anim/fab_close.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/anim/fab_open.xml",
+        "source": "/home/sanya/Downloads/Likhawat_v1/app/src/main/res/anim/fab_open.xml"
+    }
+]

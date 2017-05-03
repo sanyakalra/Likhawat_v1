@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/sanya/.android/build-cache/c72a83b586a9eeff540e306b692eef06fb30fab6/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/color-v23/abc_tint_edittext.xml"
+    }
+]

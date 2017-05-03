@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/sanya/Downloads/Likhawat_v1/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/sanya/.android/build-cache/46036c1d935e058dc425c3d8bc4d839ac29da203/output/res/layout-v21/notification_action.xml"
+    }
+]
