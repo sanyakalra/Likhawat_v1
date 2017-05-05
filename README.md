@@ -8,14 +8,8 @@ In order to try out the project,you need:
 - Android Studio 
 - Android Phone
 
-Install Android Studio, import the project and run the code to see what we have completed til now. The application is in its initial stages.
-
-## CURRENT SCENARIO:
-As desired, the screen gives you two options: to upload a photo or draw. 
-the functionality of both the pages are complete. Each of the pages are in proper link to one another.
-We have worked on myScript and Optical Character Recognition(Android Vision) libraries, for the recognition of the written text. 
-The myScript branch is added to the application. The conversion of a drawn text to digital form is complete. 
-The OCR branch is still under development in two forms: with/without camera feature and with/without crop option. For details check the Sprint 6 demo presentation.
+Install Android Studio, import the project and run the project.
+For importation instructions follow: https://developer.android.com/studio/intro/migrate.html
 
 ### Note
 If you would like to run the whole code in your laptop/PC, you must change the path of the 'libs' directory with your path.
